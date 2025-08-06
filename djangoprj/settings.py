@@ -29,6 +29,10 @@ DEBUG = True
 ALLOWED_HOSTS = ['*']
 
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://todoapp-guf3.onrender.com',
+]
+
 # Application definition
 
 INSTALLED_APPS = [
